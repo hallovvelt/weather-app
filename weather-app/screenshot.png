@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- saved from url=(0082)file:///C:/Users/HP/Desktop/Hava%20Durumu%20uygulamas%C4%B1/weather-app/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="./screenshot_files/style.css">
+</head>
+
+<body style="background: linear-gradient(135deg, rgb(96, 108, 136), rgb(63, 76, 107));">
+
+  <!-- Bulutlar — container'ın DIŞINDA, body'nin içinde -->
+  <div class="cloud cloud-1"></div>
+  <div class="cloud cloud-2"></div>
+  <div class="cloud cloud-3"></div>
+
+  <!-- Ana içerik -->
+  <div class="container">
+
+    <h1 class="app-title">🌤 Weather App</h1>
+
+    <div class="search-box">
+      <input type="text" id="city-input" placeholder="Enter a city... (e.g. Berlin)">
+      <button id="search-btn">Search</button>
+    </div>
+
+    <div id="weather-card" class="weather-card">
+      <h2 id="city-name">Stuttgart, DE</h2>
+      <p id="temperature">🌡 14°C</p>
+      <p id="description">☁ few clouds</p>
+      <p id="humidity">💧 Humidity: 64%</p>
+<!-- Nem bilgisi buraya gelecek -->
+
+<p id="wind">💨 Wind: 17 km/h</p>
+<!-- Rüzgar hızı buraya gelecek -->
+    </div>
+
+    <div id="loading" class="loading hidden">
+      <div class="spinner"></div>
+    </div>
+
+    <div id="error-message" class="error hidden"></div>
+  </div>
+
+  <script src="./screenshot_files/script.js"></script>
+
+
+</body></html>

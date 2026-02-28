@@ -1,6 +1,6 @@
 // ---- DEĞIŞKENLER ----
 
-const API_KEY = "58657a47509eefdebe56e515fa517df7";
+const API_KEY = "YOUR_API_KEY_HERE";
 const API_URL = "https://api.openweathermap.org/data/2.5/weather";
 
 
